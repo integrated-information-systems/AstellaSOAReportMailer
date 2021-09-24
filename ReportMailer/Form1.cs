@@ -179,7 +179,7 @@ namespace ReportMailer
                 mailBody.Append("Dear Customer,<br/></br/>");
                 mailBody.Append($"<p>Please find attached Electronic Statement of Account as of {lastmonthDate}.</p>" +
                     $"          <p>This statement is for your reconciliation and payment process.</p>" +
-                    $"          <p>If you have any questions regarding the statement please contact us at " +
+                    $"          <p>If you have any questions or if there is any discrepancy regarding the statement, please contact us at " +
                     $"<a href='mailto: Finance_AP@sg.astellas.com'>Finance_AP@sg.astellas.com</a></p><br/>");
 
                 mailBody.Append("Kind regards<br/> Astellas Pharma Singapore Pte Ltd");
